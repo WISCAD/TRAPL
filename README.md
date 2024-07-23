@@ -27,20 +27,32 @@ Usage:
 	Optional flag to export normalized track utilization for all global cells.  The file will begin with header comments and dimension information of global routing grid graph.  For example, a design has 2 routing layers, each of which has 3x4 global cells.  The output file will be as below.
 
 >>>
+
 # wiscTraPL output file
 dimX : 20
+
 dimY : 30
+
 dimZ : 3
 
-0.8 0.8 0.6
-0.6 0.7 0.5
-0.8 0.8 0.6
-0.5 0.7 0.6
 
 0.8 0.8 0.6
+
 0.6 0.7 0.5
+
 0.8 0.8 0.6
+
 0.5 0.7 0.6
+
+
+0.8 0.8 0.6
+
+0.6 0.7 0.5
+
+0.8 0.8 0.6
+
+0.5 0.7 0.6
+
 <<<
 
 -tar_gcell_tov:
